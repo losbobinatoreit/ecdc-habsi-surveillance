@@ -4,7 +4,7 @@
 [![Protocol](https://img.shields.io/badge/ECDC%20Protocol-PPS%202025%20(ECDC%2F2025%2FLVP%2F0005)-green.svg)](https://www.ecdc.europa.eu/)
 [![Ollama](https://img.shields.io/badge/Local%20LLM-Ollama%20Offline-orange.svg)](https://ollama.com/)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local%20%26%20GDPR%20Safe-purple.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
+[![License: EUPL-1.2](https://img.shields.io/badge/License-EUPL%201.2-blue.svg)](LICENSE)
 [![CI Test Suite](https://github.com/lorenzoramondetti/ecdc-habsi-surveillance/actions/workflows/ci.yml/badge.svg)](https://github.com/lorenzoramondetti/ecdc-habsi-surveillance/actions)
 
 > **Clinical AI platform for automated epidemiological surveillance of Healthcare-Associated Bloodstream Infections (HA-BSI)**, integrating **local open-source clinical LLMs** with a **deterministic white-box rule engine compliant with ECDC PPS criteria**.
@@ -114,7 +114,7 @@ Comparative multi-model benchmark evaluated across 67 clinical records validated
 ├── run.sh                          # Portable Linux / macOS launcher
 ├── run_pipeline.py                 # CLI entrypoint and server (--ui / --benchmark)
 ├── requirements.txt                # Core Python dependencies
-├── LICENSE                         # MIT Open-Source License
+├── LICENSE                         # European Union Public Licence v. 1.2 (EUPL-1.2)
 ├── .env.example                    # Environment configuration template
 ├── .gitignore                      # Healthcare and clinical privacy exclusion rules
 │
@@ -181,4 +181,5 @@ If you use this platform or benchmark data in your research, please cite:
 ---
 
 ## 📜 License
-Released under the [MIT License](LICENSE). Free for clinical, academic, and research use.
+Copyright © 2026 [Nome Titolare / ECDC o Autori].
+Licensed under the [European Union Public Licence v. 1.2 (EUPL-1.2)](LICENSE).
